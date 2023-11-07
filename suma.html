@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="suma.js"></script>
+    <link rel="stylesheet" href="suma.css">
+    <title>suma</title>
+</head>
+<body>
+  <form action="" method="post">
+  
+  <label for="">Digite el primer numero</label>
+  <input type="number" name="num1" id="num1" onkeyup="sumar();">
+  <br><br>
+
+
+  <label for="">Digite el segundo numero</label>
+  <input type="number" name="num2" id="num2" onkeyup="sumar();">
+  <br><br>
+
+  <label for="">resultado</label>
+  <input type="number" name="resultado" id="resultado" readonly>
+  <br><br>
+  
+
+  <button type="button" onclick="sumar()">suma</button>
+  <button type="button" onclick="restar()">resta</button>
+  <button type="button" onclick="multiplicacion()">multiplicacion</button>
+  <button type="button" onclick="divicion()">divicion</button>
+
+</form>
+
+
+
+</body>
+</html>
